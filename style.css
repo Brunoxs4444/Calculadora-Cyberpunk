@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('cyberpunk.png');
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.calcula{
+    position: absolute;
+    background: rgba(54, 3, 75, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:rgb(13, 3, 49);
+    border-radius: 1px solid rgb(13, 3, 49);
+    color: rgba(255, 255, 255, 0.897);
+    margin: 3px;
+
+}
+button:hover{
+    background-color:rgb(240, 10, 22)
+
+}
+#result{
+    background-color:white;
+    width: 207px;
+    height: 30px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    
+}
+h1 {
+    color:rgb(68, 0, 255);
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    color:rgb(161, 21, 196)
+}
+
+@media screen and (min-width: 400px) {
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('cyberpunk.png');
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .calcula{
+        position: absolute;
+        background: rgba(54, 3, 75, 0.8);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,  -50%);
+        border-radius: 15px;
+        padding: 15px;
+    
+    }
+    
+  }
